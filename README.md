@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋I’m currently working on sozdaniem stranici, cohort 33
 
 <!--
 **AsGard-33/AsGard-33** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
