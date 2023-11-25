@@ -1,0 +1,31 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.forest-background {
+  background-image: url('forest-background.png'); /* Замените на путь к вашему изображению фона */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: moveBackground 10s linear infinite;
+}
+
+@keyframes moveBackground {
+  0% { background-position: center; }
+  50% { background-position: calc(center + 1%); }
+  100% { background-position: center; }
+}
+
+h1 {
+  color: #fff;
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

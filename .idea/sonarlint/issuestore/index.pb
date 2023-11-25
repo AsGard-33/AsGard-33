@@ -28,3 +28,6 @@ w
 G.idea/sonarlint/issuestore/f/6/f6013a00b362253c64368d6eebc50ea2131754e2,4\0\40eb5791e20bdb25d1a3bafa3bea91bedb886b5e
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+:
+
+styles.css,0\1\01397909c5f00e9fa017aa0ff73335d37fecc70f
