@@ -1,31 +1,108 @@
-body, html {
+* {
+  box-sizing: border-box;
+}
+html,body {
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
-  overflow: hidden;
 }
-
-.forest-background {
-  background-image: url('forest-background.png'); /* Замените на путь к вашему изображению фона */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  height: 100vh;
+header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  animation: moveBackground 10s linear infinite;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: aqua;
 }
-
-@keyframes moveBackground {
-  0% { background-position: center; }
-  50% { background-position: calc(center + 1%); }
-  100% { background-position: center; }
+nav, a{
+  display: flex;
+  justify-content: space-around;
+  text-decoration: double;
+  gap: 30px;
 }
+main {
+  height: 100vh;
+  background-color: rgb(166, 178, 188);
+}
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100%;
+  padding: 60px;
 
+}
+.form-container {
+  width: 500px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: aquamarine;
+  box-shadow:0 0 100px black;
+}
 h1 {
-  color: #fff;
-  font-size: 5rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 100px;;
+}
+input,select,textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(247, 243, 22);
+  border-radius: 10px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display:block;
+  margin-bottom: 7px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.form-checkbox label {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+input[type=checkbox] {
+  margin: 0;
+  width: auto;
+}
+button {
+  background: #408a84;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: blue;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(20, 53, 245);
+  background-color: aqua;
+}
+.logo {
+  padding: 20px;
+  font-size: 30px;
+  color: black;
+}
+.contact-container {
+  padding: 20px;
+}
+h4 {
+  color: black;
 }

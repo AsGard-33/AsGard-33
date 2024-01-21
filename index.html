@@ -1,15 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Cohort 33</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework6</title>
 </head>
-<body>
-<div class="forest-background">
-    <h1>Welcome, Cohort 33</h1>
+<div>
+    <body>
+    <header>
+        <div>TechCity</div>
+        <nav>
+            <a href="#">About us</a>
+            <a href="#">Team</a>
+            <a href="#">Projects</a>
+            <a href="#">FAQ</a>
+        </nav>
+    </header>
+    <main>
+        <div class="page-wrapper">
+            <div class="form-container">
+                <h1>Contact us</h1>
+                <form action="#" method="dialog" autocomplete="of">
+                    <div class="form-group">
+                        <label for="user_name">Name:</label>
+                        <input
+                                required
+                                type="text"
+                                placeholder=" Your name"
+                                name="user_name"
+                                id="user_name"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="user_phone">Phone</label>
+                        <input
+                                placeholder="Your phone number"
+                                required
+                                type="tel"
+                                name=""
+                                id="user_phone"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="user_email">Email</label>
+                        <input
+                                required
+                                id="user_email"
+                                type="email"
+                                placeholder=" Your working email"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="uset_location">Location</label>
+                        <select name="Location" id="uset_location">
+                            <option value="New York">New York</option>
+                            <option>Los Angeles</option>
+                            <option>Chicago</option>
+                            <option>Boston</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="user_message">Message</label>
+                        <textarea
+                                placeholder="Your message:"
+                                id="user_message"
+                                required
+                        ></textarea>
+                    </div>
+                    <div class="form-checkbox">
+                        <label for="checkbox">I agree</label>
+                        <input required type="checkbox" id="checkbox" />
+                    </div>
+                    <!-- <checkbox type="checkbox">I agree</checkbox> -->
+                    <button type="submit">SEND REQUEST</button>
+                    <button type="reset">CLEAR FORM</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="logo">TechCity</div>
+        <div class="contact-container">
+            <h4>Address:</h4>
+            <p>Stuttgart Royal street 33</p>
+        </div>
+        <div class="contact-container">
+            <h4>Contact details:</h4>
+            <p>email: TechCity@gmail.com</p>
+            <p>phone: +49157345678</p>
+        </div>
+    </footer>
+    </body>
 </div>
-<script src="script.js"></script>
-</body>
 </html>
