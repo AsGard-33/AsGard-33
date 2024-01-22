@@ -26,6 +26,8 @@ nav, a{
 main {
   height: 100vh;
   background-color: rgb(166, 178, 188);
+  overflow-y: auto;
+  overflow-x:hidden;
 }
 .page-wrapper {
   display: flex;
